@@ -1,0 +1,86 @@
+.container {
+    background-color: #fff; /* White background */
+    padding: 20px; /* Add some padding for breathing room */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .header {
+    background-color: #3B5998; /* Dark blue header */
+    color: #fff; /* White text */
+    padding: 15px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap into a 2nd row if needed */
+    justify-content: space-evenly; /* Distribute buttons evenly within the square */
+    align-items: center; /* Center buttons vertically within the square */
+    width: 300px; /* Adjust based on your calculations */
+    height: 300px;
+  }
+  
+  .button-container button {
+    background-color: #fff; /* White buttons */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    color: #3B5998; /* Dark blue text */
+    padding: 10px 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    width: 75px; /* Adjust based on your calculations */
+    height: 75px;
+  }
+  
+  .button-container button:hover {
+    background-color: #eee; /* Slightly lighter background on hover */
+  }
+  
+  .logout-button {
+    background-color: #FF5A5F; /* Red color for logout button */
+    color: #fff; /* White text */
+    background-color: #FF5A5F; /* Red color for logout button */
+    color: #fff; /* White text */
+    margin-top: 20px; /* Space between buttons and logout button */
+    position: absolute; /* Position the button below the square */
+    bottom: 20px; /* Distance from bottom of container */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+  }
+  
+  .logout-button:hover {
+    background-color: #F04F55; /* Slightly darker red on hover */
+  }
+  
+  .logout-confirmation {
+    position: absolute; /* Position the dialog box */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Account for absolute positioning */
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .logout-confirmation button {
+    background-color: #fff; /* White buttons */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    color: #3B5998; /* Dark blue text */
+    padding: 5px 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .logout-confirmation button:hover {
+    background-color: #eee; /* Slightly lighter background on hover */
+  }

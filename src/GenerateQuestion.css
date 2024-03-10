@@ -1,0 +1,65 @@
+/* GenerateQuestions.css */
+
+.generate-questions-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .generate-questions-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .topic-container {
+    margin-bottom: 20px;
+  }
+  
+  .topic-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .topic-container select, .topic-container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .topic-container button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .topic-container button:hover {
+    background-color: #2980b9;
+  }
+  
+  .generated-questions-container {
+    margin-top: 20px;
+  }
+  
+  .generated-questions-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .generated-questions-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .generated-questions-container li {
+    margin-bottom: 10px;
+  }
+  
